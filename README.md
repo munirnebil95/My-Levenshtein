@@ -1,23 +1,12 @@
 # My Levenshtein
-***
 
-## Task
-TODO - What is the problem? And where is the challenge?
+• Wrote an algorithm that calculates the Qwasar version of a Levenshtein number between two words
 
-## Description
-TODO - How have you solved the problem?
+• Function took in 2 strings with the exact number of characters and returns an integer representing the difference between them.
 
-## Installation
-TODO - How to install your project? npm install? make? make re?
+• If parameters are not the same size then the function will return -1
 
-## Usage
-TODO - How does it work?
-```
-./my_project argument1 argument2
-```
+• If the two strings are the same size, algorithm iterates through each string and determines which characters are different
 
-### The Core Team
+• Each time there is a difference, it counts as 1
 
-
-<span><i>Made at <a href='https://qwasar.io'>Qwasar Silicon Valley</a></i></span>
-<span><img alt='Qwasar Silicon Valley Logo' src='https://storage.googleapis.com/qwasar-public/qwasar-logo_50x50.png' width='20px'></span>
